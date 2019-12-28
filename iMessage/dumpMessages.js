@@ -58,7 +58,7 @@ function pm(p) {
 }
 
 // Offset from macOS 10.14.3
-var offsetHandleMessage = 0xe0f9;
+var offsetHandleMessage = 0xdc8c;
 var iMessageBase = Module.findBaseAddress('iMessage');
 var messageHandlerAddr = iMessageBase.add(offsetHandleMessage);
 
